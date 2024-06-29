@@ -1,13 +1,12 @@
 package lowlevel
 
 import (
-    "testing"
-    "fmt"
+	"fmt"
+	"testing"
 )
-
 
 func TestEndianness(t *testing.T) {
 
-    fmt.Println("Endianness:", Endianness())
+	fmt.Println("Endianness:", Endianness())
 
 }
